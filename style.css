@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  background-color: #050;
+  flex-wrap: wrap;
+}
+.box {
+  width: 30%;
+  background-color: #9a3e3e;
+}
