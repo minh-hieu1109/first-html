@@ -5,20 +5,440 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- reset css -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Sen:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>Minh Hieu dep trai</h1>
-    <div class="container">
-      <div class="box box1">box 1</div>
-      <div class="box box2">box 2</div>
-      <div class="box box3">box 3</div>
-      <div class="box box4">box 4</div>
-      <div class="box box5">box 5</div>
-      <div class="box box6">box 6</div>
-      <div class="box box7">box 7</div>
-      <div class="box box8">box 8</div>
-    </div>
+    <!-- header -->
+    <header>
+      <div class="header fixed">
+        <div class="main-content">
+          <div class="body">
+            <!-- logo -->
+            <img
+              src="./assets/icon/cat-solid.svg"
+              alt="logo"
+              class="logo img-logo"
+            />
+            <!-- nav -->
+            <nav class="nav">
+              <ul>
+                <li class="activee"><a href="#!">Home</a></li>
+                <li><a href="#!">About me</a></li>
+                <li><a href="#!">My job</a></li>
+                <li><a href="#!">My book</a></li>
+              </ul>
+            </nav>
+            <!-- but -->
+            <div class="action">
+              <a href="#!" class="btn btn-su">Sign up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <!-- hero -->
+      <div class="hero">
+        <div class="main-content">
+          <div class="body">
+            <!-- khoi hinh -->
+            <div class="media-block">
+              <img src="./assets/img/learn1.jpg" alt="thu ngu" class="img" />
+              <div class="hero-summary">
+                <!-- item1 -->
+                <div class="item">
+                  <div class="icon">
+                    <img src="./assets/icon/des.svg" alt="des" />
+                  </div>
+                  <!-- info -->
+                  <div class="info">
+                    <div class="label">thu khoa</div>
+                    <div class="title">DHKT-L</div>
+                  </div>
+                </div>
+                <!-- item2 -->
+                <div class="item">
+                  <div class="icon icon2">
+                    <img src="./assets/icon/dev.svg" alt="dev" />
+                  </div>
+                  <!-- info -->
+                  <div class="info">
+                    <div class="label">ba trum</div>
+                    <div class="title">UEL</div>
+                  </div>
+                </div>
+                <!-- item3 -->
+                <div class="item">
+                  <div class="icon icon3">
+                    <img src="./assets/icon/marketing.svg" alt="mar" />
+                  </div>
+                  <!-- info -->
+                  <div class="info">
+                    <div class="label">tinh yeu nhieu</div>
+                    <div class="title">KINH NGHIEM</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- khoi chu -->
+            <div class="content-block">
+              <hi class="heading"
+                ><p class="thu">CHIEN THAN SIEU CAP</p>
+                <p class="thu">TINH CAM</p></hi
+              >
+              <p class="desc">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptatum, mollitia?Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Iure illo iste eius ipsam aperiam, perferendis
+                molestiae quisquam ad facere saepe?
+              </p>
+              <div class="cta-group">
+                <a href="#!" class="btn hero-btn">GRUUUUUUU</a>
+                <button class="watch-video">
+                  <div class="icon">
+                    <img src="./assets/icon/play.svg" alt="" />
+                  </div>
+                  <span>Watch video</span>
+                </button>
+              </div>
+              <p class="desc desc-res">CHET VI TINH YEU</p>
+              <p class="desc sao">
+                <strong>100+</strong> Books <strong>70+</strong> Cam nhan
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popular">
+        <div class="main-content">
+          <div class="popular-top">
+            <div class="info">
+              <h2 class="heading-lv2">Khoa hoc pho bien</h2>
+              <p class="desc">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut
+                ullam suscipit ipsa natus? Vel ut quaerat libero necessitatibus?
+              </p>
+            </div>
+            <div class="control">
+              <button class="control-bnt">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                  <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    fill="currentColor"
+                    d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
+                  />
+                </svg>
+              </button>
+              <button class="control-bnt">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                  <path
+                    fill="currentColor"
+                    d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="course-list">
+            <!-- item1 -->
+            <div class="course-item">
+              <img src="./assets/img/learn1.jpg" alt="" class="thumb" />
+              <div class="info">
+                <div class="head">
+                  <h3 class="title">Lorem, ipsum</h3>
+                  <div class="rating">
+                    <img
+                      src="./assets/icon/star-solid.svg"
+                      alt=""
+                      class="star"
+                    /><span class="value">4.5</span>
+                  </div>
+                </div>
+                <p class="desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat doloremque blanditiis consectetur.
+                </p>
+                <div class="foot">
+                  <span class="price">$125.70</span>
+                  <button class="btn btn-book">BOOK</button>
+                </div>
+              </div>
+            </div>
+            <!-- item2 -->
+            <div class="course-item">
+              <img src="./assets/img/learn2.jpg" alt="" class="thumb" />
+              <div class="info">
+                <div class="head">
+                  <h3 class="title">Lorem, ipsum dolor.</h3>
+                  <div class="rating">
+                    <img
+                      src="./assets/icon/star-solid.svg"
+                      alt=""
+                      class="star"
+                    />
+                    <span class="value">4.5</span>
+                  </div>
+                </div>
+                <p class="desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat doloremque blanditiis consectetur.
+                </p>
+                <div class="foot">
+                  <span class="price">$125.70</span>
+                  <button class="btn btn-book">BOOK</button>
+                </div>
+              </div>
+            </div>
+            <!-- item3 -->
+            <div class="course-item">
+              <img src="./assets/img/learn3.jpg" alt="" class="thumb" />
+              <div class="info">
+                <div class="head">
+                  <h3 class="title">Lorem, ipsum dolor.</h3>
+                  <div class="rating">
+                    <img
+                      src="./assets/icon/star-solid.svg"
+                      alt=""
+                      class="star"
+                    />
+                    <span class="value">4.5</span>
+                  </div>
+                </div>
+                <p class="desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat doloremque blanditiis consectetur.
+                </p>
+                <div class="foot">
+                  <span class="price">$125.70</span>
+                  <button class="btn btn-book">BOOK</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="feedback">
+        <div class="main-content">
+          <div class="feedback-list">
+            <div class="feedback-item">
+              <!-- khoi trai -->
+              <div class="info">
+                <img
+                  src="./assets/img/jake-nackos-IF9TK5Uy-KI-unsplash.jpg"
+                  alt="jake"
+                  class="avatar"
+                />
+                <p class="member-name">Anh Thu</p>
+                <p class="desc">Lorem ipsum dolor sit amet.</p>
+                <div class="dots">
+                  <span class="dot"></span>
+                  <span class="dot active"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+              <!-- khoi phai -->
+              <div class="content">
+                <img
+                  src="./assets/icon/quote-left-solid.svg"
+                  alt=""
+                  class="open-quotes"
+                />
+                <blockquote>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Itaque iusto tempore non in voluptas nisi odio distinctio sed
+                  fuga omnis?
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- features 1 -->
+      <div class="features">
+        <div class="main-content">
+          <div class="body">
+            <div class="images">
+              <img src="./assets/img/learn11.jpg" alt="" class="lower" />
+              <img src="./assets/img/learn22.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h2 class="heading-lv2">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </h2>
+              <p class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                illo, culpa et aut earum nesciunt fuga iste nobis quam amet.
+              </p>
+              <p class="desc">Lorem ipsum dolor sit amet.</p>
+              <a href="#!" class="btn cta-btn">Sign up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- features 2 -->
+      <div class="features f2">
+        <div class="main-content">
+          <div class="body">
+            <div class="content">
+              <h2 class="heading-lv2">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </h2>
+              <p class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                illo, culpa et aut earum nesciunt fuga iste nobis quam amet.
+              </p>
+              <a href="#!" class="btn cta-btn">Sign up</a>
+            </div>
+            <div class="images">
+              <img src="./assets/img/learn22.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="blogs">
+        <div class="main-content">
+          <div class="blog-top">
+            <h2 class="heading-lv2">Our blog</h2>
+            <p class="desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+              excepturi!
+            </p>
+          </div>
+          <div class="blog-list">
+            <!-- item 1 -->
+            <div class="item">
+              <a href="#!"
+                ><img
+                  src="./assets/img/jake-nackos-IF9TK5Uy-KI-unsplash.jpg"
+                  alt=""
+                  class="thumb"
+              /></a>
+              <div class="info">
+                <span class="date">21 November 2021</span>
+                <a href="#!">
+                  <h3 class="title">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Suscipit, error.
+                  </h3>
+                </a>
+                <a href="#!" class="btn">watch</a>
+              </div>
+            </div>
+            <!-- item 2 -->
+            <div class="item">
+              <a href="#!"
+                ><img src="./assets/img/learn11.jpg" alt="" class="thumb"
+              /></a>
+              <div class="info">
+                <span class="date">21 November 2021</span>
+                <a href="#!">
+                  <h3 class="title">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Suscipit, error.
+                  </h3>
+                </a>
+                <a href="#!" class="btn">watch</a>
+              </div>
+            </div>
+            <!-- item 3 -->
+            <div class="item">
+              <a href="#!"
+                ><img src="./assets/img/learn1.jpg" alt="" class="thumb"
+              /></a>
+              <div class="info">
+                <span class="date">21 November 2021</span>
+                <a href="#!">
+                  <h3 class="title">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Suscipit, error.
+                  </h3>
+                </a>
+                <a href="#!" class="btn">watch</a>
+              </div>
+            </div>
+          </div>
+          <div class="dots">
+            <span class="dot"></span>
+            <span class="dot active"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="foot">
+      <div class="main-content">
+        <div class="row">
+          <div class="column">
+            <img src="./assets/icon/cat-solid.svg" alt="" class="logo" />
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Obcaecati, dignissimos.
+            </p>
+            <div class="social">
+              <a href=""
+                ><img src="./assets/icon/icon1.svg" alt="f" class="icon1"
+              /></a>
+              <a href=""
+                ><img src="./assets/icon/icon2.svg" alt="f" class="icon1"
+              /></a>
+              <a href=""
+                ><img src="./assets/icon/icon3.svg" alt="f" class="icon1"
+              /></a>
+              <a href=""
+                ><img src="./assets/icon/icon4.svg" alt="f" class="icon1"
+              /></a>
+            </div>
+          </div>
+          <div class="column">
+            <h3 class="title">Company</h3>
+            <ul class="list">
+              <li><a href="!#">About us</a></li>
+              <li><a href="!#">Features</a></li>
+              <li><a href="!#">Our pricing</a></li>
+              <li><a href="!#">Latest news</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <h3 class="title">Support</h3>
+            <ul class="list">
+              <li><a href="!#">Top</a></li>
+              <li><a href="!#">Jung</a></li>
+              <li><a href="!#">Mid</a></li>
+              <li><a href="!#">AD carry</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <h3 class="title">Address</h3>
+            <ul class="list">
+              <li>
+                <a href="!#"><strong>Location:</strong> Nha gia phuc</a>
+              </li>
+              <li>
+                <a href="!#"><strong>Email+:</strong> hahahah@gmail.com</a>
+              </li>
+              <li>
+                <a href="!#"><strong>Phone:</strong> +0000 0000 000</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+            labore.
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
